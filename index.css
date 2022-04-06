@@ -3,26 +3,125 @@
     text-align: center;
 }
 body {
-    background-color: #CEC7C7;
+    background-color: #DDCCBF;
+    margin: 0;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 h1 {
     font-family: oswald;
-    font-size: 26px;
-    font-weight: 500;
-    color: #333333;
+    font-size: 42px;
+    font-weight: semibold;
+    color: #BEA694;
     text-transform: uppercase;
     letter-spacing: 1px;
+    line-height: 1.2em;
+}
+h2, h2 a  {
+  font-family: oswald;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin-bottom: -10px;
 }
 p {
   font-family: inconsolta:
   font-size: 12px;
-    color: #ffffff;
+    color: #313131;
+    line-height: 1.6em;
+    letter-spacing: 1px;
 }
-.header {
+.itme {
     margin-top: 100px;
 }
-.header img {
-    width:100px;
+.itme img {
+    width:150px;
     border-radius: 100px;
-    border: 5px solid #ffffff;
+    border: 5px solid #EAE8DF;
+    margin-bottom: -50px;
+}
+.header {
+  background-color: #EAE8DF;
+  padding: 15px;
+  width: 600px;
+  margin: auto;
+}
+
+.header h1 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+#nav a, #nav a:visited {
+  font-family: inconsolata;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #313131;
+  text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+  }
+
+footer {
+    background-color: #4B5357;
+    position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin: 0;
+  top: 50px;
+  }
+
+footer p {
+    color: #EAE8DF;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+
+.linkies {
+  background-color: #6E8075;
+  padding: 15px;
+    width: 80%;
+    text-align: center;
+    width: 600px;
+      padding: 15px;
+      margin: 30px auto auto auto;
+}
+
+.linkies p {
+  color: #EAE8DF;
+  line-height: 1.6em;
+}
+
+.linkies a, .linkies a:visited {
+  text-decoration: none;
+  color:#EAE8DF;
+}
+html, body {
+height: 100%;
+}
+body {
+display: flex;
+flex-direction: column;
+}
+.content {
+flex: 1 0 auto;
+}
+footer {
+flex-shrink: 0;
 }

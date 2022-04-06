@@ -1,2 +1,2 @@
 # chantellrae.github.io
-My little online portfolio on GitHub. :)
+My little portfolio on GitHub. :)
