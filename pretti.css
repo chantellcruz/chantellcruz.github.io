@@ -1,44 +1,42 @@
 * {
-  font-family: inter;
+  font-family: inconsolata;
   text-align: center;
 }
 
 body {
-  background-color: #DDCCBF;
+  background-color: #D7D0C9;
   margin: 0;
 }
 
 p {
-  font-family: inter:
-  font-size: 8px;
-  color: #313131;
-  line-height: 1.6em;
+  font-family: inconsolata;
+  font-weight: 500;
+  font-size: 15px;
   letter-spacing: 1px;
+  line-height: 1.8em;
 }
 
 a:hover {
-  opacity: 0.5;
+  color: #87817a !important;
 }
 
 h1 {
-  font-family: oswald;
-  font-size: 62px;
-  font-weight: semibold;
-  color: #BEA694;
+  font-family: ramillas;
+  font-size: 52px;
+  color: #444444;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 3px;
   line-height: 1.2em;
 }
 
 h2, h2 a  {
-  font-family: oswald;
-  font-size: 26px;
-  font-weight: 700;
+  font-family: ramillasitalic;
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1em;
   margin-bottom: 0px;
-  transform: scale(1, .95);
+  transform: scale(1, 1);
 }
 
 .itme {
@@ -48,27 +46,21 @@ h2, h2 a  {
 .itme img {
     width:150px;
     border-radius: 100px 100px 0 0;
-    border: 5px solid #EAE8DF;
+    border: 5px solid #ffffff;
     margin-bottom: -60px;
 }
 
 .header {
-  background-color: #EAE8DF;
+  background-color: #ffffff;
   padding: 15px;
   width: 600px;
   margin: auto;
+  box-shadow: 0px 0px #444444;
 }
 
 .header h1 {
   margin-bottom: 0px;
   padding-top: 10px;
-}
-
-.header p {
-  font-family: inconsolata;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: ;
 }
 
 #nav p, #nav a, #nav a:visited {
@@ -87,25 +79,21 @@ li {
 }
 
 .linkies {
-  background-color: #6E8075;
+  background-color: #ffffff;
   padding: 10px 15px 10px 15px;
   width: 600px;
-  margin: 20px auto auto auto;
-}
-
-.linkies p {
-  color: #EAE8DF;
-  line-height: 1.4em;
-  font-size: 14px;
+  margin: 40px auto auto auto;
+  box-shadow: 0px 0px #444444;
+  border-bottom: 5px solid #bfb7af;
 }
 
 .linkies a, .linkies a:visited {
   text-decoration: none;
-  color:#EAE8DF;
+  color:#444444;
 }
 
 footer {
-  background-color: #4B5357;
+  background-color: #333333;
   position: relative;
   bottom: 0;
   left: 0;
@@ -122,7 +110,7 @@ footer {
 footer p {
   font-family: inconsolata;
   font-weight: 400;
-  color: #EAE8DF;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 3px;
@@ -130,16 +118,11 @@ footer p {
 }
 
 smol {
-  font-size: 0.8em;
+  font-size: ;
+  opacity: 0.4;
   line-height: 1.2em;
 }
 
-i {
-  font-family: lora;
-  font-weight: 400;
-  font-size: 13px !important;
-  opacity: 0.8;
-}
 
 
 /* this is to make the footer "sticky" to the bottom of the page */
@@ -154,4 +137,15 @@ body {
 
 .content {
   flex: 1 0 auto;
+}
+
+
+@font-face {
+  font-family: 'ramillas';
+  src:  url('https://static.showit.co/file/JFi2K6-DS3qWZH5lE7bBmA/119667/typetype_-_tt_ramillas_extralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ramillasitalic';
+  src:  url('https://static.showit.co/file/CNPoAQ-xQdOf9E27OxSxHw/119667/typetype_-_tt_ramillas_extralight_italic.woff') format('woff');
 }
