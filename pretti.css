@@ -12,8 +12,8 @@ body {
 
 p {
   font-family: inconsolata;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.8em;
 }
@@ -23,8 +23,8 @@ a:hover {
 }
 
 h1 {
-  font-family: ramillas;
-  font-size: 52px;
+  font-family: _tt_ramillas_extralight;
+  font-size: 48px;
   color: #444444;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -36,8 +36,8 @@ h2, h2 a  {
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  line-height: 1em;
-  margin-bottom: 0px;
+  line-height: 1.4em;
+  margin-bottom: 5px;
   transform: scale(1, 1);
 }
 
@@ -143,7 +143,7 @@ body {
 
 
 @font-face {
-  font-family: 'ramillas';
+  font-family: '_tt_ramillas_extralight';
   src:  url('https://static.showit.co/file/JFi2K6-DS3qWZH5lE7bBmA/119667/typetype_-_tt_ramillas_extralight.woff') format('woff');
 }
 
