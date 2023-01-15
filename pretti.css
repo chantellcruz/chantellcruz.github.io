@@ -39,7 +39,6 @@ h1 {
   font-style: normal;
   font-size: 62px;
   color: #444444;
-  text-transform: ;
   letter-spacing: -3px;
   line-height: 1.2em;
 }
@@ -170,58 +169,12 @@ button:hover {
   padding-right: 15px;
 }
 
-footer {
-  background-color: #333333;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-  margin: 0;
-  top: 50px;
-  flex-shrink: 0;
-}
-
-footer p {
-  font-family: inconsolata;
-  font-weight: 400;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 3px;
-  line-height: 2em;
-}
-
-smol {
-  font-size: ;
-  opacity: 0.4;
-  line-height: 1.2em;
-}
-
-::-moz-selection { /* Code for Firefox */
+/* highlight textx */
+::-moz-selection { 
   color: #FFFFFF;
   background: #A99C90;
 }
-
 ::selection {
   color: #FFFFFF;
   background: #A99C90;
-}
-
-
-/* this is to make the footer "sticky" to the bottom of the page */
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1 0 auto;
 }
