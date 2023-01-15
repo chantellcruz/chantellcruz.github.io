@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #E6E3E1;
+  background-color: #e5e3de;
   margin: 0;
   cursor: crosshair;
 }
@@ -16,85 +16,158 @@ p {
   font-family: inconsolata;
   font-weight: 400;
   font-size: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 1.8em;
 }
 
+a {
+  color: #333333;
+  cursor: nw-resize;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
 a:hover {
-  color: #87817a !important;
+  color: #888888 !important;
   cursor: nw-resize;
 }
 
 h1 {
-  font-family: _tt_ramillas_extralight;
-  font-size: 48px;
+  font-family: inter;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 62px;
   color: #444444;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  text-transform: ;
+  letter-spacing: -3px;
   line-height: 1.2em;
 }
 
 h2, h2 a  {
-  font-family: ramillasitalic;
+  font-family: inter;
   font-size: 28px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: -1px;
+  line-height: 1.6em;
+}
+
+h3 {
   text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1.4em;
-  margin-bottom: 5px;
-  transform: scale(1, 1);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
-.itme {
-    margin-top: 30px;
+.content {
+  padding: 50px;
 }
 
-.itme img {
-    width:150px;
-    border-radius: 75px;
-    border: 5px solid #ffffff;
-    margin-bottom: -60px;
+.header_nav {
+  background-color: #f4f3ef;
+  padding: 0;
+  width: 700px;
+  margin: auto;
+  border: 1px solid #333333;
+  border-bottom: none;
+  display: flex;
 }
 
-.header {
-  background-color: #ffffff;
-  padding: 50px 15px 30px 15px;
+.header_title {
+  margin: auto;
+  width: 499px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.header_link {
+  border-left: 1px solid #333333;
+  padding: 6px;
+  margin: 0;
+  width: 99px;
+}
+
+.bio {
+  background-color: #f4f3ef;
+  padding: 30px 50px;
   width: 600px;
   margin: auto;
-  box-shadow: 0px 0px #444444;
+  border: 1px solid #333333;
 }
 
-.header h1 {
-  padding: 10px;
+img {
+    width:150px;
+    border-radius: 80px;
+    border: 0px solid #ffffff;
 }
 
-#nav p, #nav a, #nav a:visited {
-  font-family: inconsolata;
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #313131;
-  text-decoration: none;
-}
-
-li {
-  display: inline-block;
-  padding-right: 15px;
-  padding-top: 15px;
+.projects {
+  background-color: #f4f3ef;
+  padding: 0;
+  width: 700px;
+  margin: auto;
+  border: 1px solid #333333;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
 }
 
 .linkies {
-  background-color: #ffffff;
-  padding: 25px 15px 25px 15px;
-  width: 600px;
+  padding: 25px 0;
+  border-bottom: 1px solid #333333;
+  /*width: 600px;
   margin: 40px auto auto auto;
   box-shadow: 0px 0px #444444;
-  border-bottom: 5px solid #cecbc8;
+  border-bottom: 5px solid #cecbc8; */
+
 }
 
 .linkies a, .linkies a:visited {
   text-decoration: none;
   color:#444444;
+}
+
+button {
+  background-color:#333333;
+  border: none;
+  margin: 10px 0;
+  padding: 12px 18px;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #666666;
+  color: white;
+}
+
+.footer_section {
+  background-color: #f4f3ef;
+  padding: 0;
+  width: 700px;
+  margin: auto;
+  border: 1px solid #333333;
+  border-top: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: flex;
+}
+
+.footer_item {
+  margin: auto;
+  width: 33%;
+  padding: 8px;
+  border-right: 1px solid #333333;
+}
+
+.footer_end {
+  margin: auto;
+  width: 33%;
+  padding: 8px;
+  padding-right: 15px;
 }
 
 footer {
@@ -115,7 +188,7 @@ footer {
 footer p {
   font-family: inconsolata;
   font-weight: 400;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 3px;
@@ -128,6 +201,15 @@ smol {
   line-height: 1.2em;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #FFFFFF;
+  background: #A99C90;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: #A99C90;
+}
 
 
 /* this is to make the footer "sticky" to the bottom of the page */
@@ -142,15 +224,4 @@ body {
 
 .content {
   flex: 1 0 auto;
-}
-
-
-@font-face {
-  font-family: '_tt_ramillas_extralight';
-  src:  url('https://static.showit.co/file/JFi2K6-DS3qWZH5lE7bBmA/119667/typetype_-_tt_ramillas_extralight.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'ramillasitalic';
-  src:  url('https://static.showit.co/file/CNPoAQ-xQdOf9E27OxSxHw/119667/typetype_-_tt_ramillas_extralight_italic.woff') format('woff');
 }
