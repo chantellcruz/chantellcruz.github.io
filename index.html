@@ -5,6 +5,7 @@
   <title>Chantell Cruz | Developer, Photographer, Creative </title>
   <link href="./pretti.css" type="text/css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./github%20favicon.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -16,20 +17,22 @@
 </head>
 
 <body>
-
-
   <div class="content">
 
-    <div class="header_nav">
-      <div class="header_title">Chantell's Lil GitHub Projects</div>
-      <div class="header_link"><a href="https://www.linkedin.com/in/chantellcruz/" target="_blank">LinkedIn</a></div>
-      <div class="header_link"><a href="mailto:chantellraecruz@gmail.com" target="_blank">Email</a></div>
-      <div class="header_link"><a href="https://github.com/chantellcruz" target="_blank">GitHub</a></div>
-    </div>
+<!--˗ˏˋ ✿ H E A D E R ✿ ´ˎ˗-->
+<div class="header_nav">
+  <div class="header_title">Chantell's Lil GitHub Projects</div>
+  <div class="header_link">
+    <a href="https://www.linkedin.com/in/chantellcruz/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com/chantellcruz" target="_blank"><i class='bx bxl-github' ></i></a>
+  </div>
+</div>
 
+<div class="columns">
+    <!--˗ˏˋ ✿ B I O ✿ ´ˎ˗-->
     <div class="bio">
-      <div class="itme"><img src="me.jpg"></div>
-      <h1>Hello there!</h1>
+      <!--<div class="itme"><img src="me.jpg"></div>-->
+      <h1 class="hello-there">Hello there.</h1>
       <p>
         I'm Chantell - welcome to my lil GitHub page!
         I'm a photographer & full-stack developer based in MN.
@@ -38,26 +41,30 @@
       </p>
     </div>
 
-    <div class="projects">
-      <div class="linkies">
-        <h2><a href="" target="_blank">Pet Adoption Website</a></h2>
+  
+    <!--˗ˏˋ ✿ P R O J E C T S ✿ ´ˎ˗-->
+    <div class="projects-container grid">
+
+      <div class="projects">
+        <h2>Pet Adoption Website</h2>
         <p>front-end project for codecademy practicing using react router</p>
-        <a href="https://www.linkedin.com/in/chantellcruz/" target="_blank"><button>coming soon</button></a>
+        <div><button class="coming-soon" target="_blank">coming soon</button></div>
       </div>
-      <div class="linkies">
-        <h2><a href="https://chantellcruz.github.io/healthy-recipes/" target="_blank">Healthy Recipes</a></h2>
+      <div class="projects">
+        <h2>Healthy Recipes</h2>
         <p>project for codecademy focusing on CSS rules</p>
-        <a href="https://chantellcruz.github.io/healthy-recipes/" target="_blank"><button>view project</button></a>
+        <div><button class="button" href="https://chantellcruz.github.io/healthy-recipes/" target="_blank">view project</button></div>
       </div>
-    </div>
 
-    <div class="footer_section">
-      <div class="footer_item">coded with ♡ by chantell</div>
-      <div class="footer_item">chantellcruz.github.io</div>
-      <div class="footer_end">last updated 1/15/2023</div>
     </div>
-
   </div>
+
+
+  <!--˗ˏˋ ✿ F O O T E R ✿ ´ˎ˗-->
+  <div class="footer_section">
+    <div class="footer_item"></div>
+    <div class="footer_end">last updated 1/15/2023</div>
+  </div></div>
 
   </div>
 
